@@ -25,6 +25,29 @@
 		<sonar.organization>genspringboot-project</sonar.organization>
                 <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
+	<repositories>
+          <repository>
+             <id>SpringFeeds</id>
+             <url>https://pkgs.dev.azure.com/kandukurisrilekha100548/Artifact/_packaging/SpringFeeds/maven/v1</url>
+             <releases>
+             <enabled>true</enabled>
+             </releases>
+             <snapshots>
+             <enabled>true</enabled>
+             </snapshots>
+         </repository>
+       </repositories>
+	
+       <distributionManagement>
+           <id>SpringFeeds</id>
+           <url>https://pkgs.dev.azure.com/kandukurisrilekha100548/Artifact/_packaging/SpringFeeds/maven/v1</url>
+           <releases>
+           <enabled>true</enabled>
+           </releases>
+          <snapshots>
+          <enabled>true</enabled>
+          </snapshots>
+      </distributionManagement>
 
 
 	<dependencies>

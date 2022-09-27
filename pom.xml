@@ -39,14 +39,17 @@
        </repositories>
 	
        <distributionManagement>
-           <id>SpringFeeds</id>
-           <url>https://pkgs.dev.azure.com/kandukurisrilekha100548/Artifact/_packaging/SpringFeeds/maven/v1</url>
-           <releases>
-           <enabled>true</enabled>
-           </releases>
-          <snapshots>
-          <enabled>true</enabled>
-          </snapshots>
+	  <repository>
+             <id>SpringFeeds</id>
+             <url>https://pkgs.dev.azure.com/kandukurisrilekha100548/Artifact/_packaging/SpringFeeds/maven/v1</url>
+             <releases>
+             <enabled>true</enabled>
+             </releases>
+             <snapshots>
+             <enabled>true</enabled>
+             </snapshots>
+         </repository>
+           
       </distributionManagement>
 
 
